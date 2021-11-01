@@ -25,4 +25,8 @@ class Solution:
                 first = mid + 1
                 
         return first
-        
+
+
+def isBadVersion(version):
+    #pre-defined on leetcode
+    return
