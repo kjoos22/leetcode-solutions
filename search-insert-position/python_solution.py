@@ -3,7 +3,7 @@
 import math
 
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
+    def searchInsert(self, nums, target: int) -> int:
         start = 0
         last = len(nums) - 1
         
