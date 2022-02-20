@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 
 class Solution:
-    def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+    def kidsWithCandies(self, candies, extraCandies):
         most_candies = max(candies)
         have_most_candies = []
         for candy in candies:
